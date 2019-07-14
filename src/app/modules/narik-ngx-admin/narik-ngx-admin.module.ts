@@ -1,24 +1,26 @@
+import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
-
-import { COMPONENTS } from "./index";
-
+import { RouterModule } from "@angular/router";
 import {
   NbActionsModule,
   NbCardModule,
   NbContextMenuModule,
+  NbIconModule,
   NbLayoutModule,
   NbMenuModule,
   NbSearchModule,
   NbSidebarModule,
   NbSidebarService,
-  NbUserModule,
-  NbIconModule
+  NbUserModule
 } from "@nebular/theme";
-import { RouterModule } from "@angular/router";
+
+import { COMPONENTS } from "./index";
+import { NarikNebularTabOutletModule } from "narik-ui-nebular";
 
 @NgModule({
   imports: [
     RouterModule,
+    CommonModule,
     NbActionsModule,
     NbCardModule,
     NbContextMenuModule,
@@ -27,7 +29,8 @@ import { RouterModule } from "@angular/router";
     NbSearchModule,
     NbSidebarModule,
     NbIconModule,
-    NbUserModule
+    NbUserModule,
+    NarikNebularTabOutletModule
   ],
   declarations: [COMPONENTS],
   exports: [COMPONENTS],
