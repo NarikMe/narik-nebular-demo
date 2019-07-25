@@ -561,6 +561,18 @@
         "key": "product",
         "fields": [
           {
+            "name": "productTypeCd",
+            "title": "productType",
+            "required": true,
+            "showInList": false,
+            "dataInfo": {
+              "dataKey": "productType",
+              "dataProviderKey": "remote"
+            },
+
+            "fieldType": "select"
+          },
+          {
             "name": "productCd",
             "title": "code",
             "order": 1,
@@ -593,18 +605,6 @@
             "name": "productTypeTitle",
             "title": "productType",
             "showInDetail": false
-          },
-          {
-            "name": "productTypeCd",
-            "title": "productType",
-            "required": false,
-            "showInList": false,
-            "dataInfo": {
-              "dataKey": "productType",
-              "dataProviderKey": "remote"
-            },
-
-            "fieldType": "select"
           }
         ],
         "defaultEntity": {}
