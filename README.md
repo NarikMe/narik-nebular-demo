@@ -2,6 +2,9 @@
 
 A demo for [**Narik**](http://narik.me "Narik Angular Framework") with [Nebular](https://akveo.github.io/nebular/ "Nebular")
 
+
+[Online Demo](http://narik.me/demo/app-nebular)
+
 ## Running the demo
 
 First of all copy repo to local machine .
