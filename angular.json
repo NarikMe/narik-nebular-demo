@@ -22,18 +22,19 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "aot": true,
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
               "node_modules/ngx-toastr/toastr.css",
-              "node_modules/narik-ui-swimlane/styles/narik-ui-swimlane.css",
-              "node_modules/@swimlane/ngx-datatable/release/index.css",
-              "node_modules/@swimlane/ngx-datatable/release/themes/bootstrap.css",
-              "node_modules/@swimlane/ngx-datatable/release/assets/icons.css",
+              "node_modules/@narik/ui-swimlane/styles/narik-ui-swimlane.css",
+              "node_modules/@swimlane/ngx-datatable/index.css",
+              "node_modules/@swimlane/ngx-datatable/themes/bootstrap.css",
+              "node_modules/@swimlane/ngx-datatable/assets/icons.css",
               "src/styles/styles.scss",
-              "node_modules/narik-ui-nebular/styles/narik-ui-nebular.css"
+              "node_modules/@narik/ui-nebular/styles/narik-ui-nebular.css"
             ],
             "scripts": [],
             "customWebpackConfig": {

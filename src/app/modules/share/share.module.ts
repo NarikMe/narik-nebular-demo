@@ -4,8 +4,8 @@ import { NgModule } from "@angular/core";
 
 import { CommonModule } from "@angular/common";
 import { FormsModule } from "@angular/forms";
-import { NarikSwimlaneDataTableModule } from "narik-ui-swimlane";
-import { NarikUiNebularModule } from "narik-ui-nebular";
+import { NarikSwimlaneDataTableModule } from "@narik/ui-swimlane";
+import { NarikUiNebularModule } from "@narik/ui-nebular";
 
 @NgModule({
   imports: [

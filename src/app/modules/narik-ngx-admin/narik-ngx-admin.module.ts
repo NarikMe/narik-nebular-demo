@@ -15,7 +15,7 @@ import {
 } from "@nebular/theme";
 
 import { COMPONENTS } from "./index";
-import { NarikNebularTabOutletModule } from "narik-ui-nebular";
+import { NarikNebularTabOutletModule } from "@narik/ui-nebular";
 
 @NgModule({
   imports: [

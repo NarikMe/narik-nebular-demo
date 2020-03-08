@@ -1,4 +1,4 @@
-import { NarikCommonModule } from "narik-common";
+import { NarikCommonModule } from "@narik/common";
 
 import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
@@ -13,7 +13,7 @@ import {
   NarikNebularInputModule,
   NarikNebularButtonModule,
   NarikNebularBusyIndicatorModule
-} from "narik-ui-nebular";
+} from "@narik/ui-nebular";
 
 @NgModule({
   imports: [
