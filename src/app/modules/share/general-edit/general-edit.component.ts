@@ -1,10 +1,8 @@
 import { Component, Injector } from "@angular/core";
-import { NarikBaseTemplate } from "@narik/core";
 import { NarikUiEditForm } from "@narik/ui-nebular";
 import { DynamicForm } from "@narik/core";
 
 @DynamicForm("GeneralEditComponent")
-@NarikBaseTemplate("NarikEditUi")
 @Component({
   templateUrl: "general-edit.component.html"
 })
